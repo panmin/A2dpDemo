@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.panmin.a2dpdemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_pair"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="配对"/>
+    <Button
+        android:id="@+id/btn_remove_pair"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="取消配对"/>
+
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="连接a2dp"/>
+    <Button
+        android:id="@+id/btn_disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="断开a2dp"/>
+
+    <Button
+        android:id="@+id/btn_HFP_connect"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="连接hfp"/>
+    <Button
+        android:id="@+id/btn_HFP_disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="断开hfp"/>
+
+    <Button
+        android:id="@+id/btn_ble_connect"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="连接ble"/>
+    <EditText
+        android:id="@+id/et_ble_data"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="请输入ble要发送的数据"/>
+    <Button
+        android:id="@+id/btn_ble_write"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="ble写入数据"/>
+    <Button
+        android:id="@+id/btn_ble_disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="断开ble"/>
+
+</LinearLayout>
